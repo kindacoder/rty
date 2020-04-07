@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoottoYouth registration form</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <link href="./main.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/additional-methods.js"></script>
+
+
+</head>
+<body>
+    
+    <div id="contentContainer" class="container" style="background-color: rgb(216, 216, 216); width: 100%; ">
+        <div class="row" >
+          <div id="realContent" class="col-xs-12" >
+            <div class="row">
+              <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-sm-offset-0">
+                <h1 style="text-align: center;" >RootToYouth contest Registration form</h1>
+              </div>
+            </div>
+            <div class="row">
+              <section class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-sm-offset-0">
+                <div class="well well-lg">
+                  <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="row">
+                        <div class="col-xs-12">
+                          <h3>Welcome</h3></div>
+                      </div>
+                      <div class="row">
+                        <!-- Instructions -->
+                        <div class="col-xs-12">
+                          <p class="lead">Register now for contest <span class="text-success">FREE</span></p>
+                          <ul class="list-unstyled" style="line-height: 3; font-size: 1.4em; font-weight: 500;">
+                            <li><span class="fa fa-check text-success"></span> Participate in this contest.</li>
+                            <li><span class="fa fa-check text-success"></span> Leaderboard feature to see who is on top.</li>
+                            <li><span class="fa fa-check text-success"></span> Write down on the topic list provided.</li>
+                            <li><span class="fa fa-check text-success"></span> Win awards from RootToYouth team.</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Registration Form -->
+                    <div class="col-sm-6 col-xs-12">
+                      <div class="row">
+                        <div class="col-xs-12">
+                          <form id="signupForm" method="post" accept-charset="UTF-8" validate>
+                            <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-user icon-2x"></i></i></span>
+                              <input id="name" class="form-control input-lg" placeholder="Full Name" maxlength="100" type="text" name="name">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="icon-envelope icon-2x"></i></span>
+                                <input id="email" class="form-control input-lg" placeholder="Email" maxlength="100" type="email" name="email" validate>
+                              </div>
+                            <div class="input-group">
+                              <span class="input-group-addon"><i class="icon-map-marker icon-2x"></i></span>
+                              <input id="handle" class="form-control input-lg" placeholder="City/village" maxlength="100" type="text" name="handle">
+                            </div>
+                            
+                            <!-- <div class="input-group">
+                              <span class="input-group-addon"><i class="icon-asterisk icon-2x"></i></span>
+                              <input id="password" class="form-control input-lg" placeholder="Password" maxlength="60" type="password" name="password">
+                            </div>
+                            <div class="input-group">
+                              <span class="input-group-addon"><i class="icon-asterisk icon-2x"></i></span>
+                              <input id="password_confirmation" class="form-control input-lg" placeholder="Confirm Password" maxlength="60" type="password" name="password_confirmation">
+                            </div> -->
+                            <div class="form-group required-field-block">       
+                                <div class="col-md-12 input-group">
+                                    <span class="input-group-addon"><i class="icon-pencil icon-2x"></i></span>
+                                    <textarea rows="3" size="500" value="" class="form-control input-lg" placeholder="Write down your story here"></textarea>  
+                                        <div class="">
+                                           
+                                        </div>
+                                </div>
+                            </div>
+                            
+                        
+                            <div class="form-group">
+                              <button type="submit" id="btn-signup" class="btn btn-block btn-primary btn-lg">Submit story</button>
+                            </div>
+                          </form>
+                          
+                        </div>
+                        <!-- /.col-xs-12 -->
+                      </div>
+                      <!-- /.row -->
+                    </div>
+                    <!-- /.col-sm-6 col-xs-12 -->
+                  </div>
+                  <!-- /.row -->
+                </div>
+                <!-- /.well well-lg -->
+              </section>
+              <!-- /.col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-sm-offset-0 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /#realContent -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /#contentContainer -->
+    
+</body>
+</html>
